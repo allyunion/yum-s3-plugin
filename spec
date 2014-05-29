@@ -12,8 +12,6 @@ Source2:	s3test.repo
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
 
-Requires:	python-boto
-
 %description
 
 %prep
